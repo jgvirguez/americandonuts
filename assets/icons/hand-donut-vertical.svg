@@ -1,0 +1,43 @@
+<svg width="200" height="400" viewBox="0 0 200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- The Pink Color from the manual -->
+  <style>
+    .brand-pink { stroke: #DA13AE; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    .brand-dots { fill: #DA13AE; }
+  </style>
+
+  <!-- Arm/Hand Outline -->
+  <path class="brand-pink" d="M60 380C50 300 40 220 55 160C58 140 65 130 75 125M140 380C145 300 155 220 145 160C142 140 135 130 120 125"/>
+
+  <!-- Fingers -->
+  <path class="brand-pink" d="M75 125C85 115 95 115 100 125M120 125C110 115 105 115 100 125"/>
+  <path class="brand-pink" d="M145 160C155 150 165 150 170 165C175 180 165 200 150 210"/>
+  <path class="brand-pink" d="M148 185C158 185 168 195 168 210C168 225 158 235 150 235"/>
+
+  <!-- Donut -->
+  <circle class="brand-pink" cx="100" cy="80" r="50"/>
+  <circle class="brand-pink" cx="100" cy="80" r="15"/>
+  <!-- Frosting wave inside donut -->
+  <path class="brand-pink" d="M65 80C65 90 75 95 85 90C95 85 105 85 115 90C125 95 135 90 135 80C135 70 125 65 115 70C105 75 95 75 85 70C75 65 65 70 65 80Z" style="stroke-width: 2;"/>
+
+  <!-- Dotted Pattern on Wrist -->
+  <g class="brand-dots">
+    <circle cx="135" cy="240" r="2.5"/>
+    <circle cx="135" cy="255" r="2.5"/>
+    <circle cx="135" cy="270" r="2.5"/>
+    <circle cx="135" cy="285" r="2.5"/>
+    <circle cx="135" cy="300" r="2.5"/>
+    <circle cx="135" cy="315" r="2.5"/>
+    <circle cx="135" cy="330" r="2.5"/>
+    <circle cx="135" cy="345" r="2.5"/>
+    <circle cx="135" cy="360" r="2.5"/>
+    
+    <circle cx="145" cy="255" r="2.5"/>
+    <circle cx="145" cy="270" r="2.5"/>
+    <circle cx="145" cy="285" r="2.5"/>
+    <circle cx="145" cy="300" r="2.5"/>
+    <circle cx="145" cy="315" r="2.5"/>
+    <circle cx="145" cy="330" r="2.5"/>
+    <circle cx="145" cy="345" r="2.5"/>
+    <circle cx="145" cy="360" r="2.5"/>
+  </g>
+</svg>
